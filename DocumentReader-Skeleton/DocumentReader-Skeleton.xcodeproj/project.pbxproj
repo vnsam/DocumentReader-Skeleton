@@ -8,20 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		2F5470B023B11C370073A004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470AF23B11C370073A004 /* AppDelegate.swift */; };
-		2F5470B423B11C370073A004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470B323B11C370073A004 /* ViewController.swift */; };
+		2F5470B423B11C370073A004 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470B323B11C370073A004 /* RootViewController.swift */; };
 		2F5470B723B11C370073A004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5470B523B11C370073A004 /* Main.storyboard */; };
 		2F5470B923B11C390073A004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5470B823B11C390073A004 /* Assets.xcassets */; };
 		2F5470BC23B11C390073A004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5470BA23B11C390073A004 /* LaunchScreen.storyboard */; };
+		2F5470C923B1575E0073A004 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470C823B1575E0073A004 /* Document.swift */; };
+		2F5470CD23B157AC0073A004 /* DocumentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470CC23B157AC0073A004 /* DocumentLoader.swift */; };
+		2F5470CF23B157F30073A004 /* TextDocumentViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470CE23B157F30073A004 /* TextDocumentViewerViewController.swift */; };
+		2F5470D123B158280073A004 /* ImageDocumentViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470D023B158280073A004 /* ImageDocumentViewerViewController.swift */; };
+		2F5470D323B158480073A004 /* PresentationDocumentViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470D223B158480073A004 /* PresentationDocumentViewerViewController.swift */; };
+		2F5470D523B158880073A004 /* Deeplink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470D423B158880073A004 /* Deeplink.swift */; };
+		2F5470D823B158C10073A004 /* DeeplinkPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470D723B158C10073A004 /* DeeplinkPresenter.swift */; };
+		2F5470DA23B158E00073A004 /* DeeplinkViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470D923B158E00073A004 /* DeeplinkViewControllerFactory.swift */; };
+		2F5470DD23B1592D0073A004 /* TextDocumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470DC23B1592D0073A004 /* TextDocumentViewModel.swift */; };
+		2F5470DF23B1D6160073A004 /* ImageDocumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470DE23B1D6160073A004 /* ImageDocumentViewModel.swift */; };
+		2F5470E123B1D64D0073A004 /* PresentationDocumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5470E023B1D64D0073A004 /* PresentationDocumentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F5470AC23B11C370073A004 /* DocumentReader-Skeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DocumentReader-Skeleton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5470AF23B11C370073A004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F5470B323B11C370073A004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F5470B323B11C370073A004 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		2F5470B623B11C370073A004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F5470B823B11C390073A004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F5470BB23B11C390073A004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F5470BD23B11C390073A004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5470C323B136AE0073A004 /* DocumentReader-Skeleton.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DocumentReader-Skeleton.entitlements"; sourceTree = "<group>"; };
+		2F5470C823B1575E0073A004 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		2F5470CC23B157AC0073A004 /* DocumentLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentLoader.swift; sourceTree = "<group>"; };
+		2F5470CE23B157F30073A004 /* TextDocumentViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocumentViewerViewController.swift; sourceTree = "<group>"; };
+		2F5470D023B158280073A004 /* ImageDocumentViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDocumentViewerViewController.swift; sourceTree = "<group>"; };
+		2F5470D223B158480073A004 /* PresentationDocumentViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDocumentViewerViewController.swift; sourceTree = "<group>"; };
+		2F5470D423B158880073A004 /* Deeplink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deeplink.swift; sourceTree = "<group>"; };
+		2F5470D723B158C10073A004 /* DeeplinkPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkPresenter.swift; sourceTree = "<group>"; };
+		2F5470D923B158E00073A004 /* DeeplinkViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkViewControllerFactory.swift; sourceTree = "<group>"; };
+		2F5470DC23B1592D0073A004 /* TextDocumentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocumentViewModel.swift; sourceTree = "<group>"; };
+		2F5470DE23B1D6160073A004 /* ImageDocumentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDocumentViewModel.swift; sourceTree = "<group>"; };
+		2F5470E023B1D64D0073A004 /* PresentationDocumentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDocumentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +61,7 @@
 		2F5470A323B11C370073A004 = {
 			isa = PBXGroup;
 			children = (
+				2F5470DB23B159160073A004 /* ViewModel */,
 				2F5470AE23B11C370073A004 /* DocumentReader-Skeleton */,
 				2F5470AD23B11C370073A004 /* Products */,
 			);
@@ -54,14 +78,89 @@
 		2F5470AE23B11C370073A004 /* DocumentReader-Skeleton */ = {
 			isa = PBXGroup;
 			children = (
-				2F5470AF23B11C370073A004 /* AppDelegate.swift */,
-				2F5470B323B11C370073A004 /* ViewController.swift */,
+				2F5470D623B158AE0073A004 /* Common */,
+				2F5470CB23B157A00073A004 /* Worker */,
+				2F5470C723B1570C0073A004 /* Model */,
+				2F5470C423B156EE0073A004 /* Resources */,
+				2F5470C523B156F60073A004 /* ApplicationDelegate */,
+				2F5470C623B157000073A004 /* ViewController */,
 				2F5470B523B11C370073A004 /* Main.storyboard */,
 				2F5470B823B11C390073A004 /* Assets.xcassets */,
 				2F5470BA23B11C390073A004 /* LaunchScreen.storyboard */,
 				2F5470BD23B11C390073A004 /* Info.plist */,
 			);
 			path = "DocumentReader-Skeleton";
+			sourceTree = "<group>";
+		};
+		2F5470C423B156EE0073A004 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F5470C323B136AE0073A004 /* DocumentReader-Skeleton.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F5470C523B156F60073A004 /* ApplicationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2F5470AF23B11C370073A004 /* AppDelegate.swift */,
+			);
+			path = ApplicationDelegate;
+			sourceTree = "<group>";
+		};
+		2F5470C623B157000073A004 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2F5470CA23B157820073A004 /* DocumentView */,
+				2F5470B323B11C370073A004 /* RootViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2F5470C723B1570C0073A004 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F5470C823B1575E0073A004 /* Document.swift */,
+				2F5470D423B158880073A004 /* Deeplink.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F5470CA23B157820073A004 /* DocumentView */ = {
+			isa = PBXGroup;
+			children = (
+				2F5470CE23B157F30073A004 /* TextDocumentViewerViewController.swift */,
+				2F5470D023B158280073A004 /* ImageDocumentViewerViewController.swift */,
+				2F5470D223B158480073A004 /* PresentationDocumentViewerViewController.swift */,
+			);
+			path = DocumentView;
+			sourceTree = "<group>";
+		};
+		2F5470CB23B157A00073A004 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				2F5470CC23B157AC0073A004 /* DocumentLoader.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		2F5470D623B158AE0073A004 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2F5470D723B158C10073A004 /* DeeplinkPresenter.swift */,
+				2F5470D923B158E00073A004 /* DeeplinkViewControllerFactory.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2F5470DB23B159160073A004 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F5470DC23B1592D0073A004 /* TextDocumentViewModel.swift */,
+				2F5470DE23B1D6160073A004 /* ImageDocumentViewModel.swift */,
+				2F5470E023B1D64D0073A004 /* PresentationDocumentViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +234,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F5470B423B11C370073A004 /* ViewController.swift in Sources */,
+				2F5470B423B11C370073A004 /* RootViewController.swift in Sources */,
+				2F5470DF23B1D6160073A004 /* ImageDocumentViewModel.swift in Sources */,
+				2F5470CF23B157F30073A004 /* TextDocumentViewerViewController.swift in Sources */,
+				2F5470CD23B157AC0073A004 /* DocumentLoader.swift in Sources */,
+				2F5470DA23B158E00073A004 /* DeeplinkViewControllerFactory.swift in Sources */,
+				2F5470D823B158C10073A004 /* DeeplinkPresenter.swift in Sources */,
 				2F5470B023B11C370073A004 /* AppDelegate.swift in Sources */,
+				2F5470C923B1575E0073A004 /* Document.swift in Sources */,
+				2F5470D523B158880073A004 /* Deeplink.swift in Sources */,
+				2F5470D323B158480073A004 /* PresentationDocumentViewerViewController.swift in Sources */,
+				2F5470E123B1D64D0073A004 /* PresentationDocumentViewModel.swift in Sources */,
+				2F5470DD23B1592D0073A004 /* TextDocumentViewModel.swift in Sources */,
+				2F5470D123B158280073A004 /* ImageDocumentViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DocumentReader-Skeleton/DocumentReader-Skeleton.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "DocumentReader-Skeleton/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DocumentReader-Skeleton/DocumentReader-Skeleton.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "DocumentReader-Skeleton/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
